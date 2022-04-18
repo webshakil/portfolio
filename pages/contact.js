@@ -1,13 +1,13 @@
 import emailjs from '@emailjs/browser';
-import React, { useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import { Element } from "react-scroll";
 import { toast } from 'react-toastify';
 
-function contact() {
+function Contact() {
 	const form = useRef();
-	const [user_name, setUser_name]=useState("");
-	const [user_email, setUser_email]=useState("");
-	const [message, setMessage]=useState("");
+	const [user_name, setUser_name]=useState();
+	const [user_email, setUser_email]=useState();
+	const [message, setMessage]=useState();
 
 	const sendEmail = (e) => {
 	  e.preventDefault();
@@ -81,4 +81,4 @@ function contact() {
 	);
 }
 
-export default contact;
+export default Contact;
