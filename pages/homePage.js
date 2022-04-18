@@ -1,4 +1,4 @@
-import { FacebookOutlined, InstagramOutlined, TwitterOutlined, YoutubeOutlined } from '@ant-design/icons';
+import { FacebookOutlined, GithubOutlined, InstagramOutlined, LinkedinOutlined, TwitterOutlined, YoutubeOutlined } from '@ant-design/icons';
 import Image from "next/image";
 import Link from 'next/link';
 import React from "react";
@@ -26,23 +26,33 @@ function Home() {
 							Hello, I am <span className="text-indigo-900">Shakil</span>
 						</h1>
 						<p className="text-left font-normal font mb-5 flex-wrap">
-							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis
-							aperiam placeat molestiae atque tempore perspiciatis laboriosam
-							quasi pariatur, vitae sequi veritatis veniam rerum, quos
-							consectetur commodi rem totam voluptatum? Hic!
+						I am a full stack web application developer with more than 4 years experience of react js, node js, GraphQL, mongodb and TypeScript along with DSA. Please stay in touch and have a professional work.
 						</p>
 							
 						<div className="flex justify-content-between">
 								
 								
-								<Link href="https://github.com/webshakil">
+								<Link href="https://www.facebook.com/ShakilWebshaper/">
 									<a target="_blank"><FacebookOutlined style={{ fontSize: '26px', color: '#08c' }} /></a>
 								</Link>
-								<p><YoutubeOutlined style={{ fontSize: '26px', color: '#08c' }} /></p>
-								<p><TwitterOutlined  style={{ fontSize: '26px', color: '#08c' }}/></p>
-								<p><InstagramOutlined  style={{ fontSize: '26px', color: '#08c' }}/></p>
-								<p><InstagramOutlined  style={{ fontSize: '26px', color: '#08c' }}/></p>
-								<p><InstagramOutlined  style={{ fontSize: '26px', color: '#08c' }}/></p>
+								<Link href="https://twitter.com/shakilkamran">
+									<a target="_blank"><TwitterOutlined style={{ fontSize: '26px', color: '#08c' }} /></a>
+								</Link>
+								<Link href="https://github.com/webshakil">
+									<a target="_blank"><GithubOutlined  style={{ fontSize: '26px', color: '#08c' }} /></a>
+								</Link>
+								<Link href="https://www.youtube.com/channel/UClFMaWxT-X3p1Op0VH0yY-A">
+									<a target="_blank"><YoutubeOutlined  style={{ fontSize: '26px', color: '#08c' }} /></a>
+								</Link>
+								<Link href="https://www.youtube.com/channel/UClFMaWxT-X3p1Op0VH0yY-A">
+									<a target="_blank"><LinkedinOutlined  style={{ fontSize: '26px', color: '#08c' }} /></a>
+								</Link>
+								<Link href="https://www.instagram.com/shakil_prodev/">
+									<a target="_blank"><InstagramOutlined  style={{ fontSize: '26px', color: '#08c' }} /></a>
+								</Link>
+								
+								
+							
 								
 							</div>
 							<br/>

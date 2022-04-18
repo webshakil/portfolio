@@ -1,11 +1,11 @@
 import Image from "next/image";
-import One from "../public/images/1.png";
-import Two from "../public/images/2.jpg";
-import Three from "../public/images/3.jpg";
-import Four from "../public/images/4.jpg";
-import Five from "../public/images/5.jpg";
-import Six from "../public/images/6.jpg";
 import { Element } from "react-scroll";
+import Two from "../public/images/dashboard.jpg";
+import Five from "../public/images/graphql.png";
+import Four from "../public/images/nodejs.png";
+import One from "../public/images/rDesign.png";
+import Three from "../public/images/react.jpg";
+import Six from "../public/images/typescript.jpg";
 
 function works() {
 	return (
@@ -74,12 +74,7 @@ function works() {
 					</div>
 				</div>
 
-				<h1 className="text-blue-900 text-base my-10">
-					Discover all projects on{" "}
-					<a href="#" className="text-black font-semibold">
-						dribbble{" "}
-					</a>
-				</h1>
+			
 			</div>
 		</Element>
 	);

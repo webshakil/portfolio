@@ -1,8 +1,8 @@
-import { GiCardboardBox } from "react-icons/gi";
-import { HiColorSwatch } from "react-icons/hi";
-import { MdDeveloperBoard } from "react-icons/md";
-import { AiOutlineBlock } from "react-icons/ai";
+import { DiMongodb } from "react-icons/di";
+import { FaNode, FaReact } from "react-icons/fa";
+import { SiTypescript } from "react-icons/si";
 import { Element } from "react-scroll";
+
 
 function services() {
 	return (
@@ -16,28 +16,28 @@ function services() {
 					<div className="flex  flex-col justify-center items-center">
 						{/* first block */}
 						<div className="flex justify-center items-center cursor-pointer">
-							<GiCardboardBox className="w-10 h-10 bg-yellow-400 text-gray-100 m-3 p-1 shadow-xl rounded-md" />
+							
+							<FaReact className="w-10 h-10 bg-yellow-400 text-gray-100 m-3 p-1 shadow-xl rounded-md"/>
+
 							<h2 className="text-xl text-indigo-600 font-semibold">
-								Strategy & Direction
+								ReactJS
 							</h2>
 						</div>
 						<p className="md:text-base text-gray-400 md:text-center sm:text-left sm:text-sm">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit.
-							Perferendis aliquid fuga, asperiores voluptas expedita nulla.
+							Created several projects with popular library ReactJS and NextJS along with Redux and graphql.React JS is the most popular JS library in the present time.
 						</p>
 					</div>
 
 					{/* second block */}
 					<div className="flex flex-col justify-center items-center">
 						<div className="flex justify-center items-center cursor-pointer">
-							<HiColorSwatch className="w-10 h-10 bg-red-400 text-gray-100 m-3 p-1 shadow-xl rounded-md" />
+							<FaNode className="w-10 h-10 bg-red-400 text-gray-100 m-3 p-1 shadow-xl rounded-md" />
 							<h2 className="text-xl text-indigo-600 font-semibold">
-								Branding & Logo
+								Node JS
 							</h2>
 						</div>
 						<p className="md:text-base text-gray-400 md:text-center sm:text-sm sm:text-left">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit.
-							Perferendis aliquid fuga, asperiores voluptas expedita nulla.
+							Lot of experience with NodeJS ExpressJS along with mongodb and sanity and contentful.One of the biggest reasons why Node. js is so popular is because it uses JavaScript as its main language to build web applications.
 						</p>
 					</div>
 				</div>
@@ -47,28 +47,26 @@ function services() {
 					<div className="flex flex-col justify-center items-center">
 						{/* first block */}
 						<div className="flex justify-center items-center cursor-pointer">
-							<AiOutlineBlock className="w-10 h-10 bg-green-500 text-gray-100 m-3 p-1 shadow-xl rounded-md" />
+							<SiTypescript className="w-10 h-10 bg-green-500 text-gray-100 m-3 p-1 shadow-xl rounded-md" />
 							<h2 className="text-xl text-indigo-600 font-semibold ">
-								Motion & Animation
+								TypeScript
 							</h2>
 						</div>
 						<p className="md:text-base text-gray-400 md:text-center sm:text-left sm:text-sm">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit.
-							Perferendis aliquid fuga, asperiores voluptas expedita nulla.
+						TypeScript adds additional syntax to JavaScript to support a tighter integration with your editor. Catch errors early in your editor, and I  have hand on experine on TypeScript
 						</p>
 					</div>
 
 					{/* second block */}
 					<div className="flex flex-col justify-center items-center">
 						<div className="flex justify-center items-center cursor-pointer">
-							<MdDeveloperBoard className="w-10 h-10 bg-blue-400 text-gray-100 m-3 p-1 shadow-xl rounded-md" />
+							<DiMongodb className="w-10 h-10 bg-blue-400 text-gray-100 m-3 p-1 shadow-xl rounded-md" />
 							<h2 className="text-xl text-indigo-600 font-semibold">
-								Design & Development
+								Mongodb
 							</h2>
 						</div>
 						<p className="md:text-base text-gray-400 md:text-center sm:text-left sm:text-sm">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit.
-							Perferendis aliquid fuga, asperiores voluptas expedita nulla.
+							MongoDB is a document database with the scalability and flexibility that you want with the querying and indexing that you need
 						</p>
 					</div>
 				</div>
